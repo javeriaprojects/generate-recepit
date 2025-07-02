@@ -1,14 +1,15 @@
-
+##prompt user to enter input
 product = input("Enter product name: ")
 price = float(input("Enter price (per item): $"))
 quantity = int(input("Enter quantity: "))
 
-
+##calculate
 subtotal = price * quantity
 tax_rate = 0.05  
 tax = subtotal * tax_rate
 total = subtotal + tax
 
+##print the recepit with formitted output
 print("\n📄 --- Receipt ---")
 print(f"Item: {product}")
 print(f"Quantity: {quantity}")

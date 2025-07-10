@@ -1,4 +1,5 @@
 "# generate-recepit" 
+YOLO badge
 # 🧾 Receipt Generator
 
 A simple Python app by **Javeria** that creates a printed customer receipt based on user input. It calculates the subtotal, tax, and final total, then displays a neatly formatted summary in the terminal.
